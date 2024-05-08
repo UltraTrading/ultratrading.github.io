@@ -106,8 +106,12 @@ a {
   color: #f9b275 !important;
 }
 
+svg.theme-gold {
+  fill: #f9b275 !important;
+}
+
 div#carouselMain {
-  margin-top: 230px;
+  margin-top: 240px;
 }
 
 section#footer {
