@@ -67,13 +67,49 @@ p {
   color: #d49359 !important;
 }
 
+@-webkit-keyframes arrow-jump-right {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(-6rem);
+    -moz-transform: translateX(-6rem);
+    transform: translateX(-6rem);
+  }
+}
+svg #arrow-right:hover {
+  -webkit-animation: arrow-jump-right 2s infinite; /* Safari 4+ */
+  -moz-animation: arrow-jump-right 2s infinite; /* Fx 5+ */
+  -o-animation: arrow-jump-right 2s infinite; /* Opera 12+ */
+  animation: arrow-jump-right 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes arrow-jump-left {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(-6rem);
+    -moz-transform: translateX(-6rem);
+    transform: translateX(-6rem);
+  }
+}
+svg#arrow-left:hover {
+  -webkit-animation: arrow-jump-left 2s infinite; /* Safari 4+ */
+  -moz-animation: arrow-jump-left 2s infinite; /* Fx 5+ */
+  -o-animation: arrow-jump-left 2s infinite; /* Opera 12+ */
+  animation: arrow-jump-left 2s infinite; /* IE 10+, Fx 29+ */
+}
+
 input {
   font-family: "Lora", serif !important;
   font-size: 1.2em !important;
   border-radius: 8px;
   background-color: white;
   min-height: 1.6rem;
-  padding: 1rem;
+  padding: 0.8rem;
   width: 50%;
   border: 0;
 }
@@ -84,9 +120,13 @@ textarea {
   border-radius: 8px;
   font-size: 1.2em !important;
   min-height: 1.6rem;
-  padding: 1rem;
+  padding: 0.8rem;
   width: 100%;
   border: 0;
+}
+
+button {
+  font-family: "Noto Sans Display", sans-serif !important;
 }
 
 label {
@@ -104,10 +144,6 @@ label {
 
 a {
   color: #f9b275 !important;
-}
-
-svg.theme-gold {
-  fill: #f9b275 !important;
 }
 
 div#carouselMain {
