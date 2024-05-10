@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5, h6 {
   color: white !important;
 }
 
+svg#asta {
+  width: 150px;
+}
+
+svg#afi {
+  width: 150px;
+}
+
 .nav-link.active {
   color: white !important;
   border-bottom: 2px;
@@ -151,7 +159,7 @@ div#carouselMain {
 }
 
 section#footer {
-  background-color: black;
+  background-color: #101219;
 }
 
 section#content {
