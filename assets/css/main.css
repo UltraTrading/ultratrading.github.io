@@ -1,5 +1,17 @@
-a.navbar-brand {
-  min-height: 150px;
+.btn-primary {
+  color: #101219 !important;
+  background-color: #d49359 !important;
+  border-color: #f9b275 !important;
+  text-shadow: #101219;
+}
+
+.btn-primary:hover {
+  background-color: #f9b275 !important;
+  color: black !important;
+}
+
+body {
+  background-color: #101219 !important;
 }
 
 h2 {
@@ -20,6 +32,10 @@ h4 {
 
 h5 {
   letter-spacing: 0.1rem;
+}
+
+h5 a {
+  text-decoration: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -152,10 +168,6 @@ label {
 
 a {
   color: #f9b275 !important;
-}
-
-div#carouselMain {
-  margin-top: 240px;
 }
 
 section#footer {
